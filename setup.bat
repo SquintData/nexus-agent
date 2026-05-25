@@ -6,6 +6,9 @@ echo   Nexus Agent — Instalação
 echo ========================================
 echo.
 
+REM Remove flag read-only herdada da extração de ZIP no Windows
+attrib -R /S /D > nul 2>&1
+
 REM Verifica se Python está instalado
 python --version > nul 2>&1
 if errorlevel 1 (
