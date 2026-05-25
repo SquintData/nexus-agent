@@ -1,0 +1,11 @@
+.env
+.env.local
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+agent/logs/
+agent/models/
+build/
+dist/
+*.spec
